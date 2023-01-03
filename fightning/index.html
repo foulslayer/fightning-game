@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div style="position: relative; display: inline-block">
+        <!-- smaller red container div -->
+        <div class="container">
+            <!-- player health -->
+            <div class="healthBar">
+                <div style="background-color: red; height: 30px; width: 100%"></div>
+                <div id="playerHealth"></div>
+            </div>
+
+            <!-- timer -->
+            <div id="timer">
+                10
+            </div>
+            <!-- enemy health -->
+            <div class="healthBar">
+                <div style="background-color: red; height: 30px; width: 100%"></div>
+                <div id="enemyHealth"></div>
+            </div>
+            <div></div>
+        </div>
+        <div id="displayText">
+        
+        </div>
+
+
+
+
+
+        <div style="position: relative; display: inline-block">
+          <div style="
+          position: absolute;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          padding: 20px;
+          margin-left: 45rem;
+          margin-top: 22rem;
+        ">
+        <div id="gameover" style="
+        background-color: black;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        font-size: 20px;
+      "></div>
+</div>
+</div>
+
+        
+    <canvas></canvas>
+    <script src="classes\class.js"></script>
+    <script src="classes\utils.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
+
